@@ -1,5 +1,11 @@
 # @edo-w/devconfig
 
+## 0.7.0
+
+### Minor Changes
+
+- a98dd0c: fix dev deps
+
 ## 0.6.0
 
 ### Minor Changes

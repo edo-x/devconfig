@@ -1,6 +1,6 @@
 {
   "name": "@edo-w/devconfig",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "base configs for edo projects",
   "repository": {
     "url": "https://github.com/edo-w/devconfig.git"
