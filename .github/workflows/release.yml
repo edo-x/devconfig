@@ -31,7 +31,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Create PR / Publish Release
-        uses: changesets/action@v1
+        uses: changesets/action@v1.5.3
         with:
           publish: pnpm publish --access=public
           commit: "ci: release [skip ci]"
