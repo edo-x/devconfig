@@ -1,6 +1,6 @@
 {
   "name": "@edo-x/devconfig",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "base configs for edo projects",
   "type": "module",
   "license": "Apache-2.0",
