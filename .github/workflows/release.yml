@@ -5,6 +5,10 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+  pull-requests: write
+
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
@@ -28,8 +32,8 @@ jobs:
       - name: Create PR / Publish Release
         uses: changesets/action@v1
         with:
-          publish: pnpm release
-          commit: "ci: release new version [skip ci]"
+          publish: pnpm changeset publish
+          commit: "ci: release [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
